@@ -1,0 +1,29 @@
+{
+  "name": "dts-tasks-api",
+  "version": "1.0.0",
+  "description": "A simple task management API providing a POST /tasks endpoint with validation and SQLite storage.",
+  "main": "src/index.js",
+  "scripts": {
+    "migrate": "node src/db/migrate.js",
+    "test": "jest"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arxvxnd/dts-tasks-api.git"
+  },
+  "author": "Aravind Ragunathan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arxvxnd/dts-tasks-api/issues"
+  },
+  "homepage": "https://github.com/arxvxnd/dts-tasks-api#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.4.6",
+    "express": "^5.1.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
